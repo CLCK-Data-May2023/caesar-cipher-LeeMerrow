@@ -21,4 +21,4 @@ for letters in message:
         encrypt = encrypt + letters
     index_message += 1
 
-print("The encrypted sentence is: ", encrypt)
+print("The encrypted sentence is:", encrypt)
