@@ -14,7 +14,7 @@ for letters in message:
             break
     if index_alpha != 26:
         index_alpha = index_alpha + 5
-        if index_alpha > 26:
+        if index_alpha >= 26:
             index_alpha = index_alpha - 26
         encrypt = encrypt + alpha[index_alpha]
     else:
